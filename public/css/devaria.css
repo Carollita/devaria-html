@@ -6,6 +6,7 @@
     verde #3bd42d
     roxo #5e49ff
     cinza #f0f5ff
+    lilás #a191ff
 */
 html {
     height: 100%;
@@ -16,4 +17,28 @@ body {
     font-family: sans-serif;
     color: #fff;
     margin: 0;
+}
+
+.title {
+    padding: 0 20px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+
+h1.title {
+    margin: 40px auto 20px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .width-50pct-desktop {
+        width: 50% !important;
+    }
 }
