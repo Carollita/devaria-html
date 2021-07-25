@@ -1,0 +1,90 @@
+/*ESTILOS DA PÁGINA CONTATO*/
+
+.sub-title {
+    margin: 0 20px;
+}
+
+main .contact-form > div {
+    margin: 15px 0;
+}
+
+main .contact-form > div label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+main .contact-form input, 
+main .contact-form select,
+main .contact-form textarea {
+    width: 90%;
+    padding: 5px 15px;
+    outline-color: #3bd42d;
+}
+
+main .contact-form select {
+    width: 100%;
+}
+
+main .contact-form textarea {
+    resize: none; /*deixa tamanho textarea fixo*/
+    padding-top: 15px;
+}
+
+main .contact-form > div input[type="radio"],
+main .contact-form > div input[type="checkbox"] {
+    width: 25px;
+}
+
+main .contact-form > div:nth-child(4) span {
+    color: #25cdb3;
+}
+
+main .contact-form > div input[type="submit"],
+main .contact-form > div input[type="reset"] {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+main .contact-form > div input[type="submit"] {
+    background-color: #3bd42d;
+    padding: 10px;
+}
+
+main .contact-form > div input[type="reset"] {
+    background-color: #a191ff;
+}
+
+@media screen and (min-width: 992px) {
+    main .contact-form {
+        width: 60%;
+        border: 1px solid #25cdb3;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 25px auto;
+    }
+
+    main .contact-form input, 
+    main .contact-form textarea {
+    width: 95%;
+}
+
+    main .contact-form select {
+        width: 40%;
+    }
+
+    main .contact-form > div input[type="submit"],
+    main .contact-form > div input[type="reset"] {
+    width: auto;
+    padding: 10px;
+    outline-color: none;
+    }
+
+    main .contact-form > div input[type="submit"] {
+        margin-right: 20px;
+    }
+}
