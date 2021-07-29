@@ -1,7 +1,15 @@
 /*ESTILOS DA PÁGINA CONTATO*/
 
+h1.title {
+    color: #3bd423;
+    font-size: 1.5em;
+    margin: 40px auto 10px;
+}
+
 .sub-title {
     margin: 0 20px;
+    color: #fff;
+    font-size: 1.1em;
 }
 
 main .contact-form > div {
@@ -11,6 +19,7 @@ main .contact-form > div {
 main .contact-form > div label {
     display: block;
     margin-bottom: 10px;
+    color: #25cdb3;
 }
 
 main .contact-form input, 
@@ -36,7 +45,7 @@ main .contact-form > div input[type="checkbox"] {
 }
 
 main .contact-form > div:nth-child(4) span {
-    color: #25cdb3;
+    color: #fff;
 }
 
 main .contact-form > div input[type="submit"],
@@ -48,15 +57,15 @@ main .contact-form > div input[type="reset"] {
     border-radius: 10px;
     font-size: 1.1em;
     font-weight: bold;
+    padding: 10px;
 }
 
 main .contact-form > div input[type="submit"] {
     background-color: #3bd42d;
-    padding: 10px;
 }
 
 main .contact-form > div input[type="reset"] {
-    background-color: #a191ff;
+    background-color: #25cdb3;
 }
 
 @media screen and (min-width: 992px) {
@@ -80,7 +89,6 @@ main .contact-form > div input[type="reset"] {
     main .contact-form > div input[type="submit"],
     main .contact-form > div input[type="reset"] {
     width: auto;
-    padding: 10px;
     outline-color: none;
     }
 
