@@ -29,3 +29,17 @@ main div.ranking {
 main section table {
     margin: 0px 5px 0px 5px;
 }
+
+@media screen and (min-width: 992px){
+    main section table {
+        margin: auto;
+    }
+
+    main table thead th {
+        padding: 20px 80px;
+    }
+
+    main table tbody tr td {
+        padding: 10px 50px;
+    }
+}
